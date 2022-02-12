@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Utilities.ExtentReporterNG" />
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="/Users/N510513/IdeaProjects/com.AutomationFrameworkDemo/src/test/java/TestCases/SpiceJetDemo.java">
+        <classes>
+            <class name="TestCases.SpiceJetDemo">
+                <methods>
+                    <include name="launchApp" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
